@@ -1,0 +1,304 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+/* mobile first */
+@media (max-width : 390px) {
+    /* navbar */
+.navbar {
+    width: 390px;
+    position: absolute;
+    z-index: 2;
+    background: linear-gradient(-180deg, #000 0%, rgba(0,0,0,0) 100%) !important;
+    background-color: transparent !important;
+}
+
+.navbar:hover {
+    background-color: rgba(0, 0, 0, 0.8) !important;
+    transition: all 1s ease-in-out !important;
+}
+
+.navbar-dark .navbar-toggler {
+    color: rgba(0, 0, 0, .0);
+    border-color: rgba(0, 0, 0, 0);
+}
+
+.navbar-scroll {
+    background-color: rgba(0, 0, 0, 0.8) !important;
+    transition: all 1s ease-in-out !important;
+}
+
+/* text */
+.description {
+    padding: 15px 0 0 15px;
+}
+
+/* carousel */
+.carousel-title {
+    font-size: 40px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.carousel-description {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+/* card */
+.card-container {
+    display: flex;
+    justify-content: center;
+    background-color: #818181;
+    border-radius: 15px 15px 0px 0px;
+}
+
+.card {
+    background-color: white;
+    width: 315px;
+    height: 510px;
+    border-radius: 15px;
+}
+
+.card-imgContainer {
+    height: 300px;
+    margin-bottom: 15px;
+}
+
+.card-img {
+    height: 300px;
+    object-fit: cover;
+    border-radius: 15px 15px 0 0;
+}
+
+.card-title {
+    text-align: center;
+}
+
+.card-text {
+    text-align: center;
+}
+
+.card-button {
+    background-color: black;
+    color: white;
+    padding: 15px 20px;
+    display: block;
+    text-align: center;
+    border-radius: 30px;
+    margin: 20px 50px;
+}
+
+.shipper {
+    object-position: 0px -90px;
+}
+
+/* main */
+.whiteBG {
+    height: 250px;
+    background-color: #818181;
+}
+
+/* imagenes */
+.brand-logo {
+    height: 80px;
+}
+
+.main-coverImg {
+    width: 390px;
+    max-height: 430px;
+}
+
+.secondary-coverImg {
+    max-width: 100%;
+    height: 300px;
+    object-fit: cover;
+    object-position: right;
+}
+
+
+/* containers */
+.coverImg-container {
+    padding: 0;
+    position: relative;
+}
+
+.second-coverImg-container {
+    width: 390px;
+    margin-bottom: 30px;
+}
+
+.FC-text {
+    position: absolute;
+    top: 230px;
+    left: 10px;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 40px;
+    font-weight: bolder;
+}
+
+
+/* footer */
+/* icons */
+.socialIcons {
+    list-style: none;
+}
+
+.icons {
+    font-size: 30px;
+    color: #bc7d24;
+}
+}
+
+@media (min-width: 391px) and (max-width: 576px) {
+    .navbar {
+        width: 576px;
+        position: absolute;
+        z-index: 2;
+        background: linear-gradient(-180deg, #000 0%, rgba(0,0,0,0) 100%) !important;
+        background-color: transparent !important;
+    }
+    
+    .navbar:hover {
+        background-color: rgba(0, 0, 0, 0.8) !important;
+        transition: all 1s ease-in-out !important;
+    }
+    
+    .navbar-dark .navbar-toggler {
+        color: rgba(0, 0, 0, .0);
+        border-color: rgba(0, 0, 0, 0);
+    }
+    
+    .navbar-scroll {
+        background-color: rgba(0, 0, 0, 0.8) !important;
+        transition: all 1s ease-in-out !important;
+    }
+    
+    /* text */
+    .description {
+        padding: 15px 0 0 0px;
+        text-align: center;
+    }
+    
+    /* carousel */
+    .carousel-title {
+        font-size: 40px;
+        font-weight: bold;
+        text-transform: uppercase;
+    }
+    
+    .carousel-description {
+        font-size: 20px;
+        font-weight: bold;
+    }
+    
+    /* card */
+    .card-container {
+        display: flex;
+        justify-content: center;
+        background-color: #818181;
+        border-radius: 15px 15px 0px 0px;
+    }
+    
+    .card {
+        background-color: white;
+        width: 575px;
+        height: 690px;
+        border-radius: 15px;
+    }
+    
+    .card-imgContainer {
+        height: 430px;
+        margin-bottom: 15px;
+    }
+    
+    .card-img {
+        height: 430px;
+        object-fit: cover;
+        border-radius: 15px 15px 0 0;
+    }
+    
+    .card-title {
+        text-align: center;
+    }
+    
+    .card-text {
+        text-align: center;
+    }
+    
+    .card-button {
+        background-color: black;
+        color: white;
+        padding: 15px 20px;
+        display: block;
+        text-align: center;
+        border-radius: 30px;
+        margin: 20px 50px;
+    }
+    
+    .shipper {
+        object-position: 0px -90px;
+    }
+    
+    /* main */
+    .whiteBG {
+        height: 250px;
+        background-color: #818181;
+    }
+
+    .logistic-Text {
+        padding-top: 60px !important;
+    }
+    
+    /* imagenes */
+    .brand-logo {
+        height: 80px;
+    }
+    
+    .main-coverImg {
+        width: 576px;
+        max-height: 630px;
+    }
+    
+    .secondary-coverImg {
+        max-width: 100%;
+        object-fit: cover;
+        object-position: right;
+    }
+    
+    
+    /* containers */
+    .coverImg-container {
+        padding: 0;
+        position: relative;
+    }
+    
+    .second-coverImg-container {
+        margin-bottom: 30px;
+    }
+    
+    .FC-text {
+        position: absolute;
+        top: 327px;
+        left: 10px;
+        text-transform: uppercase;
+        text-align: center;
+        font-size: 40px;
+        font-weight: bolder;
+    }
+    
+    
+    /* footer */
+    /* icons */
+    .socialIcons {
+        list-style: none;
+    }
+    
+    .icons {
+        font-size: 30px;
+        color: #bc7d24;
+    }
+}

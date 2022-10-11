@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Steelseries Truck Company</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="/style.css">
+</head>
+
+<body class="bg-dark">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-transparent position-fixed" id="navbar">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <img src="/media/LogoTrucker.png" alt="logo de compania de camion" class="brand-logo">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Features</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Pricing</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Dropdown link
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container-fluid coverImg-container">
+        <h1 class="text-light FC-text">Faster shipping, anywhere, always on time</h1>
+        <img src="/media/frontCover.jpg" alt="truck on the road" class="main-coverImg">
+    </div>
+
+    <div class="container mt-5 mb-5">
+        <h2 class="text-light text-center" data-aos="zoom-in" data-aos-delay="4000">Prepare and expand your business for the long haul</h2>
+        <p class="text-light description" data-aos="zoom-in" data-aos-delay="2000">We'll get the right truck for the right load at the best price!</p>
+    </div>
+
+    <main>
+        <div class="card-container swiper mySwiper">
+            <div class="content swiper-wrapper">
+                <div class="swiper-slide card">
+                    <div class="card-imgContainer">
+                        <img class="card-img" src="/media/Broker.jpg" alt="">
+                    </div>
+                    <h2 class="card-title">Broker</h2>
+                    <p class="card-text">text</p>
+                    <a href="" class="card-button">Read More</a>
+                </div>
+                <div class="swiper-slide card">
+                    <div class="card-imgContainer">
+                        <img class="card-img" src="/media/Driver.jpg" alt="">
+                    </div>
+                    <h2 class="card-title">Carriers</h2>
+                    <p class="card-text">text</p>
+                    <a href="" class="card-button">Read More</a>
+                </div>
+                <div class="swiper-slide card">
+                    <div class="card-imgContainer">
+                        <img class="card-img shipper" src="/media/Shipper.jpg" alt="">
+                    </div>
+                    <h2 class="card-title">Shippers</h2>
+                    <p class="card-text">text</p>
+                    <a href="" class="card-button">Read More</a>
+                </div>
+            </div>
+            
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-pagination"></div>
+        </div>
+
+        <div class="whiteBG">
+            <div class="p-4 logistic-Text" data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
+                <h4 class="text-light">Reliable and Efficient Logistic Solutions</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus, tempora!</p>
+                <button class="btn btn-outline-warning" data-aos="fade-zoom-in"
+                data-aos-easing="ease-in-back"
+                data-aos-delay="1000"
+                data-aos-offset="0">Read More</button>
+            </div>
+        </div>
+
+        <div class="equipmentSection mt-5 mb-5">
+            <div class="p-4" data-aos="fade-zoom-in" data-aos-easing="ease-in-back" data-aos-delay="300" data-aos-offset="0">
+                <h5 class="text-light">Always Top Of The Line Equipment</h5>
+                <p class="text-light">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime, officia?</p>
+                <button class="btn btn-outline-warning" data-aos="fade-zoom-in"
+                data-aos-easing="ease-in-back"
+                data-aos-delay="800"
+                data-aos-offset="0">Take a look</button>
+            </div>
+        </div>
+
+        <div class="second-coverImg-container">
+            <img src="/media/Portada.jpg" alt="two white trucks facing each other" class="secondary-coverImg">
+        </div>
+
+    </main>
+
+    <footer>
+        <div class="d-flex justify-content-center">
+            <ul class="socialIcons d-flex flex-row gap-3 p-0 mb-1">
+                <li class="icon-list">
+                    <a class="icons" href="http://twitter.com" target="_blank" rel="noopener noreferrer"><i
+                            class="fab fa-twitter-square"></i></a>
+                </li>
+                <li class="icon-list">
+                    <a class="icons" href="http://instagram.com" target="_blank" rel="noopener noreferrer"><i
+                            class="fab fa-instagram-square"></i></a>
+                </li>
+                <li class="icon-list">
+                    <a class="icons" href="http://gmail.com" target="_blank" rel="noopener noreferrer"><i
+                            class="fas fa-envelope-square"></i></a>
+                </li>
+                <li class="icon-list">
+                    <a class="icons" href="http://facebook.com" target="_blank" rel="noopener noreferrer"><i
+                            class="fab fa-facebook"></i></a>
+                </li>
+                <li class="icon-list">
+                    <a class="icons" href="http://#" target="_blank" rel="noopener noreferrer"><i
+                            class="fab fa-whatsapp-square"></i></a>
+                </li>
+            </ul>
+        </div>
+        <div>
+            <p class="text-light p-2 fs-6">Copyright © 2022 Southern Steel Logistics. All rights reserved. All
+                trademarks are the
+                property of their respective owners.</p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
+    </script>
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script src="/JS/swiper.js"></script>
+    <script src="https://kit.fontawesome.com/8520cf0c66.js" crossorigin="anonymous"></script>
+
+    <!-- aos -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>AOS.init();</script>
+
+    <!-- scripts -->
+    <script src="/JS/navbar.js"></script>
+</body>
+
+</html>
